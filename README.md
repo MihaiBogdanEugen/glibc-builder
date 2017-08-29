@@ -5,6 +5,7 @@
 1. Update the glibc version in the following files:
 - build-docker.sh
 - cleanup.sh
+- Dockerfile
 - get-lib.sh
 - run-docker.sh
 
