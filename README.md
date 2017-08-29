@@ -2,12 +2,8 @@
 ## A GNU C Library (glibc) builder
 ### Usage
 
-1. Update the glibc version in the following files:
-- build-docker.sh
-- cleanup.sh
-- Dockerfile
-- get-lib.sh
-- run-docker.sh
+1. Update the glibc version in the following file:
+- set-glibc-version.sh
 
 2. Build Docker container
 ```shell

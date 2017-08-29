@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-docker build -t mbe1224/glibc-builder:2.26 .
+source set-glibc-version.sh
+
+docker build -t mbe1224/glibc-builder:$GLIBC_VERSION .
