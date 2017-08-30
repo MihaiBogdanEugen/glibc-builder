@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-docker cp glibc-builder:/glibc-bin-2.26.tar.gz ./
+source set-glibc-version.sh
+
+docker cp glibc-builder:/glibc-bin-$GLIBC_VERSION.tar.gz ./
